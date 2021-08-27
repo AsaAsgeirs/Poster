@@ -14,11 +14,6 @@ body {
     margin: center;
 }
 
-/*
-.container-2{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-*/
 
 /* INFO CONTAINER*/
 .grid-container-3{
@@ -27,17 +22,6 @@ body {
     font-size: 20px;
     margin-left: 200px;
     margin-right: 200px;
-
-/*
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex: 1;
-    border: 1px #ccc solid;
-    padding: 10px;
-    width: 50%;
-    justify-content: center;
-*/
 }
 
 /* INFO*/
