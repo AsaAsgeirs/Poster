@@ -1,26 +1,74 @@
-/* HEADER*/
-
 body {
-    background: rgb(139,83,145);
-    background: radial-gradient(circle, rgba(139,83,145,1) 45%, rgba(31,50,143,1) 100%);
-    height: 100%;
+    height: 100vh;
+    background: rgb(87,158,159);
+    background: linear-gradient(0deg, rgba(87,158,159,1) 0%, rgba(38,9,12,1) 100%);
 }
 
-.ny{
-    background-image: url("newyork.jpeg");
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+/* LIVE MUSIC SHOW */
+.container-1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-shadow: 2px 2px #579e9f;
+    color: white;
+    align-content: center;
+    margin: center;
+}
+
+/*
+.container-2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+*/
+
+/* INFO CONTAINER*/
+.grid-container-3{
+    grid-template-columns: auto auto auto;
+    padding: 1px;
+    font-size: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+
+/*
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    border: 1px #ccc solid;
+    padding: 10px;
+    width: 50%;
+    justify-content: center;
+*/
+}
+
+/* INFO*/
+.grid-item{
+    color: white;
+    border: 1px solid white;
+    text-align: center;
+    margin-top: 10px;
+    letter-spacing: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Spartan', sans-serif;
+    font-size: 25px;
+    text-shadow: 2px 2px #3d7778;
 }
 
 
-
-
-
-/*SECTION*/
-
-
-
-
-/*FOOTER*/
+/* FREE ENTRY*/
+.container-4{
+    display: flex;
+    margin: 80px;
+    margin-left: 350px;
+    justify-content: center;
+    font-size: 25px;
+    color: white;
+    border: 1px;
+    padding: 10px;
+    width: 250px;
+    height: 100px;
+    background-color: black;
+    -ms-transform: skewY(10deg); 
+    transform: skewY(10deg);
+    font-family: 'Quicksand', sans-serif;
+    text-shadow: 2px 2px #579e9f;
+}
